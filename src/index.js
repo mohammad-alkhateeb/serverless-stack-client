@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Amplify } from 'aws-amplify';
 import config from './config';
+
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,
@@ -29,6 +30,11 @@ Amplify.configure({
     ]
   }
 });
+
+
+/*alert (Amplify.Auth.userPoolWebClientId);
+alert(Amplify.Storage.endpoints);
+alert(Amplify.API.configure);*/
 ReactDOM.render(
   <Router>
     <App />

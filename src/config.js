@@ -11,6 +11,9 @@ export default {
       REGION: "us-east-2",
       USER_POOL_ID: "us-east-2_zUtreJas4",
       APP_CLIENT_ID: "6ifik4hvnk0g985ejlr7q4iojn",
-      IDENTITY_POOL_ID: "us-east-2:8e37e90a-f7fb-4031-b18e-ec8af4347fc7'"
-    }
+      IDENTITY_POOL_ID: "us-east-2:b8398710-74f6-4829-9487-db23f7b273b0"
+                         
+    },
+    STRIPE_KEY: "pk_test_51HCc6zDrw30tTuJtPDavkz6fp1aotrernwVh367COgK8ZtPXTkncgRyExK5iGM90kYkivovkRguhvQoJL4GY6Czc00ZH3MM66s",
+    MAX_ATTACHMENT_SIZE: 5000000
   };
